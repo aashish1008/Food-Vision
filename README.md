@@ -12,11 +12,11 @@ The purpose of this project is to build a robust food classification model using
 - Streamlit
 
 ## Project Structure
-`model/` - Directory containing the trained model of the food vision dataset.
-`README.md` - Project documentation.
-`food-vision.ipynb` - Jupyter notebook demonstrating the implementation and training of the model.
-`main.py` - Main script for running the model.
-`requirements.txt` - List of required Python packages.
+- `model/` : Directory containing the trained model of the food vision dataset.
+- `README.md` : Project documentation.
+- `food-vision.ipynb` : Jupyter notebook demonstrating the implementation and training of the model.
+- `main.py` : Main script for running the model.
+- `requirements.txt` : List of required Python packages.
 
 ## Installation
 1. Clone the repository:
@@ -28,13 +28,13 @@ The purpose of this project is to build a robust food classification model using
    pip install -r requirements.txt
 
 ## Usage
-### Running the Jupyter Notebook
-Open and run the `food-vision.ipynb` notebook to see step-by-step implementation details, including data preprocessing, model training, and evaluation.
+1. Running the Jupyter Notebook
+   Open and run the `food-vision.ipynb` notebook to see step-by-step implementation details, including data preprocessing, model training, and evaluation.
 
-### Running the Script
-To classify images using the pre-trained model, run the `main.py` script:
-    ``` bash
-    streamlit run app.py
-
+2. Running the Script
+   To classify images using the pre-trained model, run the `main.py` script:
+   ``` bash
+   streamlit run app.py
+   
 ## Contributing
 Contributions are welcome! Please create a pull request or open an issue to discuss your ideas.
