@@ -28,10 +28,10 @@ The purpose of this project is to build a robust food classification model using
    pip install -r requirements.txt
 
 ## Usage
-1. Running the Jupyter Notebook
+1. **Running the Jupyter Notebook :**
    Open and run the `food-vision.ipynb` notebook to see step-by-step implementation details, including data preprocessing, model training, and evaluation.
 
-2. Running the Script
+2. **Running the Script :**
    To classify images using the pre-trained model, run the `main.py` script:
    ``` bash
    streamlit run app.py
